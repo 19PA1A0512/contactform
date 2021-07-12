@@ -36,7 +36,7 @@ phonenumber VARCHAR(50)
 )";
 
 if (mysqli_query($conn, $sql)) {
-  echo "Table MyGuests created successfully";
+  echo "Table MyGuests1 created successfully";
 } else {
   echo "Error creating table: " . mysqli_error($conn);
 }
